@@ -1,0 +1,33 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$secondary-color: blue;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.blue {
+	color: $secondary-color;
+}
+
+.hulk {
+	font-size: 5em;
+}
+
+.captured {
+	border: 2px solid $primary-color;
+}
+
+.rounded {
+	border-radius: 25%;
+}
+
+#guinea-pig {
+	padding: 1em;
+	max-width: 40%;
+}
+
+button {
+	display: block;
+}
